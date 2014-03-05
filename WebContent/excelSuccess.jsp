@@ -26,9 +26,9 @@
         <br>
         <table border = "1">
             <tr>
-                <td>First Name</d>
-                <td>Last Name</d>
-                <td>Grade</d>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Grade</td>
             </tr>
             <c:forEach var="student" items="${addCourseExcelDisplayBean.studentList}">
                 <tr>

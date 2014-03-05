@@ -8,12 +8,12 @@
 
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     
     <body>
         <div id = "frontheader">
-            <img src="images/pinpoint-growth-web.png" align="top">
+            <img src="images/pinpoint-growth-web.png" align="top" />
         </div>
 
         <div id = "frontForm">
@@ -32,7 +32,7 @@
 
         <jsp:forward page="/preTest6.jsp" />
         <a href="TraditionalHomePage.jsp">Go back to traditional home page</a>
-        <br>
+        <br/>
     </body>
 
 </html>

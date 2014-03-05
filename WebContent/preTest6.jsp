@@ -9,12 +9,12 @@
 <html>
 
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
 
     <body>
         <div id = "frontheader">
-            <img src="images/pinpoint-growth-web.png" align="top">
+            <img src="images/pinpoint-growth-web.png" align="top" />
         </div>
 
         <div id = "frontForm">
@@ -34,7 +34,8 @@
                 out.println(studentName+"       " + studentScore + "      "  + result + "<br>");    
             }
         %>
-        <a href="TraditionalHomePage.jsp">Go back to traditional home page</a><br>
+        <a href="TraditionalHomePage.jsp">Go back to traditional home page</a>
+        <br/>
     </body>
 
 </html>

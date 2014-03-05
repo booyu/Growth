@@ -42,7 +42,9 @@
                                 <td bgcolor="#fd3f3f">
                             </c:otherwise>
                         </c:choose>
-                        <b><a href="ScoreInput?aID=<c:out value="${param.assignmentID}" />&sID=<c:out value="${studentDTO.studentID}" />"><c:out value="${studentDTO.lastName}" />, <c:out value="${studentDTO.firstName}" /></a></b>
+                        <b>
+                            <a href="ScoreInput?aID=<c:out value="${param.assignmentID}" />&sID=<c:out value="${studentDTO.studentID}" />"><c:out value="${studentDTO.lastName}" />, <c:out value="${studentDTO.firstName}" /></a>
+                        </b>
                         </td>
                     </tr>
                 </c:forEach>

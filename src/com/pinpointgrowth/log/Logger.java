@@ -10,6 +10,8 @@ import javax.servlet.ServletContext;
 
 public class Logger {
 
+    private static BufferedWriter writer;
+
     public static void logStackTrace(StackTraceElement[] stackTraceArray,
             ServletContext context) {
         Date date = new Date();
@@ -22,7 +24,7 @@ public class Logger {
 
         String fullFileName = path + "/" + dateString + ".log";
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(
+            writer = new BufferedWriter(new FileWriter(
                     fullFileName));
             for (StackTraceElement element : stackTraceArray) {
                 writer.write(element.toString() + "\n");

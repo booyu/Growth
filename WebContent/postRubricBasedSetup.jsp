@@ -70,7 +70,7 @@
                                 <c:forEach var="i" begin="1" end="${param.numberOfSLO}" step="1" varStatus ="status">
                                     <tr>
                                         <td><input type="text" name="SLOName_${i}" /></td>
-                                        <input type="hidden" name="SLOMinScore_${i}" value="1" size="1"/>
+                                        <input type="hidden" name="SLOMinScore_${i}" value="1" size="1" />
                                         <td>
                                             <select name="SLOMaxScore_${i}">
                                                 <option value="3">3</option>

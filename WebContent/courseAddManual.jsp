@@ -61,9 +61,9 @@
                 <form action="CourseAddManual" method="POST">
                     <table border="1">
                         <tr>
-                            <td>First Name</d>
-                            <td>Last Name</d>
-                            <td>Grade</d>
+                            <td>First Name</td>
+                            <td>Last Name</td>
+                            <td>Grade</td>
                         </tr>
                         <c:forEach var="i" begin="1" end="${addCourseManualBean.numberOfStudents}" step="1" varStatus ="status">
                             <tr>

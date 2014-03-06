@@ -28,7 +28,7 @@
             session.setAttribute("numberOfDes",numberOfDes);
         %>
 
-        <form action="preTest4.jsp" method="POST">
+        <form action="preTest4.jsp" method="post">
             <table border="1">
                 <c:forEach var="i" begin="1" end="${param.numberOfDes-1}" step="1" varStatus ="status">
                     <tr>

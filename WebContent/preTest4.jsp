@@ -31,7 +31,7 @@
             }
         %>
 
-        <form action="preTest5.jsp" method="POST">
+        <form action="preTest5.jsp" method="post">
             <table border="1">
                 <c:forEach var="i" begin="1" end="${preTest.getNumberOfDes()}" step="1" varStatus ="status">
                     <tr>
